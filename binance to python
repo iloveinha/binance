@@ -1,1 +1,7 @@
-python to binance code i love inha.
+##This code is the function code to complete the binance-to-python code.
+
+futures_ticker(symbol='BTCUSDT') ##symbol이 BTCUSDT인 코인의 정보를 dict형태로 반환
+df=pd.DataFrame.from_dict(ticker,orient='index') pandas를 이용하여 정리할 수 있음.
+
+client.get_server_time() ##client의 서버타임을 반환
+
